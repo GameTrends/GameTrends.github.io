@@ -1,0 +1,82 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Spel CSGO</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+<!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+         <div id="center">
+        <nav class="top">
+            <div class="container meny">
+                <h1><a class="gametrends" href="index.html"><b><i>Game Trends</i></b></a></h1>
+                    <ul class="center">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Spel</a>
+                            <ul>
+                                <li><a href="menyval1.html">Meny</a></li>
+                                <li><a href="menyvalCSGO.html">CS:GO</a></li>
+                                <li><a href="menyvalWatchDogs2.html">Watch_Dogs2</a></li>
+                                <li><a href="menyvalWorldsAdrift.html">Worlds Adrift</a></li>
+                                <li><a href="menyvalScrapM.html">ScrapMechanic</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#">Specs</a>
+                            <ul>
+                                <li><a href="menyval2.html">Meny</a></li>
+                                <li><a href="#">Computer Specs</a></li>
+                                <li><a href="#">Keyboard mouse</a></li>
+                                <li><a href="#">Monitor</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="menyval3.html">Om Mig</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </div>
+
+                
+                <center><img src="bilder/csgoo.png" width="20%"></center>
+                <center><p class="spelText">Counter-Strike : Global Offensive AKA CS:GO är ett spel som går ut på att det är ett lag som är kallat för Terrorist och Counter Terrorist AKA T och CT! T:arna ska plantera en bomb eller döda alla CT:s det är 5 i varje lag! CT:s ska döda alla Terroristerna eller desarmera bomben om den är planterad! Spelet ger jag 9/10 stärnor! Jag ger den 9 stjärnor och inte 10 för alla tycker man är så cool för man har en "Kniv" det tycker jag är dåligt för alla bara spänderar massa pengar på det! Och flera försöker scamma en på den om man har en sån där "Kniv" eller "AWP Dragon Lore" AKA "AWP DLore"! Spelet kostar 14€ 140kr så det är kanska billigt!</p></center>
+                
+                <center><a href="http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">
+                <br>
+                <h1><b id="buy">KÖP SPEL!</b></h1></a></center>
+                <br><br>
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/edYCtaNueQY" frameborder="0" allowfullscreen></iframe></center>
+            </div>
+
+
+
+
+</body>
+</html>
